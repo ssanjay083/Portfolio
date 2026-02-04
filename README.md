@@ -74,7 +74,6 @@ Upload to GitHub Pages for free hosting.
             margin: 0;
         }
 
-        /* Navigation Bar */
         nav {
             background-color: black;
             padding: 10px;

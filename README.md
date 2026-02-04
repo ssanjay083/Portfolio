@@ -49,12 +49,20 @@ Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
 ```
-<!DOCTYPE html>
 <html>
 <head>
     <title>My Resume Portfolio</title>
 
     <style>
+         .main-header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }     
 
         * {
             font-family: Arial;
@@ -66,9 +74,32 @@ Upload to GitHub Pages for free hosting.
             margin: 0;
         }
 
-        table {
+        /* Navigation Bar */
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
             width: 90%;
             margin: 20px auto;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
             border-collapse: collapse;
         }
 
@@ -77,29 +108,18 @@ Upload to GitHub Pages for free hosting.
             padding: 10px;
             text-align: center;
         }
-
-        .header td {
-            font-size: 24px;
-            font-weight: bold;
-            border: none;
-        }
-
-        .menu td {
-            font-size: 16px;
-            border: none;
-            font-weight: bold;
-        }
-
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 70%;
-        }
+ 
 
         .title {
             font-weight: bold;
             font-size: 18px;
             background-color: #f2f2f2;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
         }
 
         footer {
@@ -108,48 +128,56 @@ Upload to GitHub Pages for free hosting.
             font-size: 14px;
             font-weight: bold;
         }
-
     </style>
 </head>
 
 <body>
-
-    <table class="header">
-        <tr>
-            <td>MY RESUME PORTFOLIO</td>
-        </tr>
-    </table>
-
-    <table class="menu">
-        <tr>
-            <td>Profile</td>
-            <td>Technical Skills</td>
-            <td>Education</td>
-            <td>Contact</td>
-        </tr>
-    </table>
-
+<div class="main-header">
+    MY RESUME PORTFOLIO
+</div>
+<nav>
+    <a href="#intro">Introduction</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section id="intro">
     <table>
         <tr>
-            <td colspan="2" class="title">Profile</td>
+            <td colspan="2" class="title">Introduction</td>
         </tr>
 
         <tr>
             <td>
-                <img src="C:\Users\admin\Desktop\mwa exp\prof.jpeg" class="profile-img">
+                <img src="prof.jpeg" class="profile-img">
             </td>
 
             <td>
                 <b>Sanjay S</b><br><br>
                 Java Developer | Web Developer<br><br>
-
-                I am a motivated student with good knowledge
-                in Java and Web Development. I am preparing
-                myself for software company requirements.
+                Aspiring Software Engineer preparing for placements.
             </td>
         </tr>
     </table>
+</section>
+<section id="about">
+    <table>
+        <tr>
+            <td class="title">About Me</td>
+        </tr>
 
+        <tr>
+            <td>
+                I am a motivated computer science student with good
+                knowledge in Java, Web Development, and DSA.
+                I aim to build a successful career in software industry.
+            </td>
+        </tr>
+    </table>
+</section>
+<section id="skills">
     <table>
         <tr>
             <td colspan="2" class="title">Technical Skills</td>
@@ -157,30 +185,53 @@ Upload to GitHub Pages for free hosting.
 
         <tr>
             <th>Skill</th>
-            <th>Level (For Company)</th>
+            <th>Level</th>
         </tr>
 
         <tr>
             <td>Java</td>
-            <td>Good (Industry Ready)</td>
+            <td>Good</td>
         </tr>
 
         <tr>
             <td>HTML</td>
-            <td>Good (Frontend Basics)</td>
+            <td>Good</td>
         </tr>
 
         <tr>
             <td>CSS</td>
-            <td>Average (Design Level)</td>
+            <td>Average</td>
         </tr>
 
         <tr>
             <td>DSA</td>
-            <td>Learning (Placement Level)</td>
+            <td>Learning</td>
         </tr>
     </table>
+</section>
+<section id="projects">
+    <table>
+        <tr>
+            <td colspan="2" class="title">Projects</td>
+        </tr>
 
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>Student Management System</td>
+            <td>Java-based project to manage student records.</td>
+        </tr>
+
+        <tr>
+            <td>Portfolio Website</td>
+            <td>Personal resume website using HTML and CSS.</td>
+        </tr>
+    </table>
+</section>
+<section id="education">
     <table>
         <tr>
             <td colspan="4" class="title">Education</td>
@@ -194,27 +245,28 @@ Upload to GitHub Pages for free hosting.
         </tr>
 
         <tr>
-            <td>10th Standard</td>
+            <td>10th</td>
             <td>High School</td>
-            <td>2021 - 2022</td>
+            <td>2022</td>
             <td>88%</td>
         </tr>
 
         <tr>
-            <td>12th Standard</td>
-            <td>Higher Secondary School</td>
-            <td>2023 - 2024</td>
+            <td>12th</td>
+            <td>Higher Secondary</td>
+            <td>2024</td>
             <td>85%</td>
         </tr>
 
         <tr>
-            <td>B.E (CSE)</td>
+            <td>B.E CSE</td>
             <td>Saveetha Engineering College</td>
-            <td>2024 - 2028</td>
+            <td>2024-2028</td>
             <td>80%</td>
         </tr>
     </table>
-
+</section>
+<section id="contact">
     <table>
         <tr>
             <td colspan="2" class="title">Contact Details</td>
@@ -235,11 +287,10 @@ Upload to GitHub Pages for free hosting.
             <td>Tamil Nadu</td>
         </tr>
     </table>
-
-    <footer>
-        © 2026 Sanjay S | Resume Portfolio
-    </footer>
-
+</section>
+<footer>
+    © 2026 Sanjay S | Resume Portfolio
+</footer>
 </body>
 </html>
 
@@ -247,7 +298,7 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-<img width="1860" height="1059" alt="image" src="https://github.com/user-attachments/assets/4c4d65ec-11b3-435c-b617-2698a96562e0" />
+<img width="1593" height="1113" alt="Screenshot 2026-02-04 134321" src="https://github.com/user-attachments/assets/76a34e49-9a91-4773-a3cf-689ddcf0c0be" />
 
 
 

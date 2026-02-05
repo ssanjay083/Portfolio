@@ -54,7 +54,7 @@ Upload to GitHub Pages for free hosting.
     <title>My Resume Portfolio</title>
 
     <style>
-         .main-header {
+        .main-header {
             background-color: #2c3e50;
             color: white;
             text-align: center;
@@ -62,7 +62,7 @@ Upload to GitHub Pages for free hosting.
             font-size: 32px;
             font-weight: bold;
             letter-spacing: 2px;
-        }     
+        }
 
         * {
             font-family: Arial;
@@ -107,7 +107,6 @@ Upload to GitHub Pages for free hosting.
             padding: 10px;
             text-align: center;
         }
- 
 
         .title {
             font-weight: bold;
@@ -131,17 +130,22 @@ Upload to GitHub Pages for free hosting.
 </head>
 
 <body>
+
 <div class="main-header">
     MY RESUME PORTFOLIO
 </div>
+
 <nav>
     <a href="#intro">Introduction</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
 </nav>
+
+
 <section id="intro">
     <table>
         <tr>
@@ -161,6 +165,8 @@ Upload to GitHub Pages for free hosting.
         </tr>
     </table>
 </section>
+
+
 <section id="about">
     <table>
         <tr>
@@ -169,67 +175,134 @@ Upload to GitHub Pages for free hosting.
 
         <tr>
             <td>
-                I am a motivated computer science student with good
-                knowledge in Java, Web Development, and DSA.
-                I aim to build a successful career in software industry.
+                Motivated CSE student with strong interest in
+                backend development, web technologies, and
+                problem solving with optimized solutions.
             </td>
         </tr>
     </table>
 </section>
+
+
 <section id="skills">
     <table>
         <tr>
-            <td colspan="2" class="title">Technical Skills</td>
+            <td colspan="5" class="title">Technical Skills</td>
         </tr>
 
         <tr>
             <th>Skill</th>
-            <th>Level</th>
+            <th>Action</th>
+            <th>Count</th>
+            <th>Before</th>
+            <th>After (Impact)</th>
         </tr>
 
         <tr>
             <td>Java</td>
-            <td>Good</td>
+            <td>Optimized programs</td>
+            <td>5+</td>
+            <td>Execution time: 10 sec</td>
+            <td>Reduced to 2 sec (80% faster)</td>
         </tr>
 
         <tr>
-            <td>HTML</td>
-            <td>Good</td>
-        </tr>
-
-        <tr>
-            <td>CSS</td>
-            <td>Average</td>
+            <td>HTML & CSS</td>
+            <td>Optimized pages</td>
+            <td>3+</td>
+            <td>Load time: 6 sec</td>
+            <td>Reduced to 2 sec (3x faster)</td>
         </tr>
 
         <tr>
             <td>DSA</td>
-            <td>Learning</td>
+            <td>Improved algorithms</td>
+            <td>100+</td>
+            <td>O(n²) solutions</td>
+            <td>Optimized to O(n)</td>
+        </tr>
+
+        <tr>
+            <td>SQL</td>
+            <td>Optimized queries</td>
+            <td>20+</td>
+            <td>Query time: 8 sec</td>
+            <td>Reduced to 1.5 sec</td>
         </tr>
     </table>
 </section>
+
+
 <section id="projects">
     <table>
         <tr>
-            <td colspan="2" class="title">Projects</td>
+            <td colspan="5" class="title">Projects</td>
         </tr>
 
         <tr>
             <th>Project</th>
-            <th>Description</th>
+            <th>Action</th>
+            <th>Data/Users</th>
+            <th>Before</th>
+            <th>After (Impact)</th>
         </tr>
 
         <tr>
             <td>Student Management System</td>
-            <td>Java-based project to manage student records.</td>
+            <td>Optimized backend</td>
+            <td>1000+ records</td>
+            <td>Response time: 12 sec</td>
+            <td>Reduced to 3 sec</td>
         </tr>
 
         <tr>
             <td>Portfolio Website</td>
-            <td>Personal resume website using HTML and CSS.</td>
+            <td>Improved performance</td>
+            <td>500+ visitors</td>
+            <td>Load time: 7 sec</td>
+            <td>Reduced to 2 sec</td>
+        </tr>
+
+        <tr>
+            <td>Quiz Application</td>
+            <td>Optimized logic</td>
+            <td>200+ users</td>
+            <td>Submission lag</td>
+            <td>Instant submission</td>
         </tr>
     </table>
 </section>
+
+
+<section id="certificates">
+    <table>
+        <tr>
+            <td colspan="2" class="title">Certificates</td>
+        </tr>
+
+        <tr>
+            <th>Course</th>
+            <th>Achievement</th>
+        </tr>
+
+        <tr>
+            <td>Java Programming</td>
+            <td>Built 5+ real-world projects</td>
+        </tr>
+
+        <tr>
+            <td>Web Development</td>
+            <td>Designed 3+ responsive websites</td>
+        </tr>
+
+        <tr>
+            <td>DSA Training</td>
+            <td>Solved 100+ coding problems</td>
+        </tr>
+    </table>
+</section>
+
+
 <section id="education">
     <table>
         <tr>
@@ -265,6 +338,8 @@ Upload to GitHub Pages for free hosting.
         </tr>
     </table>
 </section>
+
+
 <section id="contact">
     <table>
         <tr>
@@ -273,6 +348,29 @@ Upload to GitHub Pages for free hosting.
 
         <tr>
             <td>Email</td>
+            <td>sanjay@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Mobile</td>
+            <td>9876543210</td>
+        </tr>
+
+        <tr>
+            <td>Location</td>
+            <td>Tamil Nadu</td>
+        </tr>
+    </table>
+</section>
+
+
+<footer>
+    © 2026 Sanjay S | Resume Portfolio
+</footer>
+
+</body>
+</html>
+           <td>Email</td>
             <td>sanjay@gmail.com</td>
         </tr>
 
@@ -297,8 +395,8 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-<img width="1593" height="1113" alt="Screenshot 2026-02-04 134321" src="https://github.com/user-attachments/assets/76a34e49-9a91-4773-a3cf-689ddcf0c0be" />
 
+<img width="1588" height="991" alt="image" src="https://github.com/user-attachments/assets/d736bf38-29f2-4f0a-b9fe-454d549511cc" />
 
 
 ## RESULT
